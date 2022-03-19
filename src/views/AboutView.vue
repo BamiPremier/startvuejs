@@ -1,20 +1,22 @@
+
+
 <template>
   <div class="about">
     <h1>This is an about page</h1>
-       <AboutWorld msg="Welcome to Your Vue.js App About"/>
- 
+    <AboutWorld msg="Data" />
   </div>
 </template>
 
 
+
 <script>
 // @ is an alias to /src
-import AboutWorld from '@/components/AboutComponent.vue'
+import AboutWorld from "@/components/AboutComponent.vue";
 
 export default {
-  name: 'AboutView',
+  name: "AboutView",
   components: {
-    AboutWorld
-  }
-}
+    AboutWorld,
+  },
+};
 </script>

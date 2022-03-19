@@ -9,7 +9,8 @@
 export default {
   name: 'AboutWorld',
   props: {
-    msg: String
+    msg: String,
+    
   }
 }
 </script>
